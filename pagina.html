@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Encuesta</title>
+        <style>
+            body{
+                background-color: blueviolet;
+                margin-left: 300px;
+            }
+            form{
+                border: 3px salmon;
+                border-color: brown;
+                background-color: aquamarine;
+                width: 350px;
+                border-radius: 6%;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Ingrese sus Datos</h1>
+        <br>
+        <form>
+            Ingrese su Nombre <input type="tex" name="nombre-alum" size="25"><br>
+            Selecione su sexo<br>
+            Mujer <input type="radio" name="sex" value="mujer" checked><br>
+            Hombre <input type="radio" name="sex" value="hombre"><br>
+            Binario <input type="radio" name="sex" value="binario">
+            Selecione Deporte:
+            <br>
+            Basquet <input type="checkbox" name="deporte" value="Basquet">
+            Futbol <input type="checkbox" name="deporte" value="Futbol">
+            Voley <input type="checkbox" name="deporte" value="Voley">
+            <br>
+                Ingrese dirección de facebook:
+            <input type="url" name="url_alumno">
+            <br>
+            Ingrese su correo:
+            <input type="email" name="correo_alu">
+            <br><input type="submit" value="Grabar">
+            <br><input type="reset" value="Borrar">
+        </form>
+
+    </body>
